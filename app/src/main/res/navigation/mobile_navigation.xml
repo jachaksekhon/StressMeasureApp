@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_stress">
+
+    <fragment
+        android:id="@+id/nav_stress"
+        android:name="com.jachaks.stressmeter_jachak_sekhon.ui.stress.StressFragment"
+        android:label="@string/menu_stress"
+        tools:layout="@layout/fragment_stress" />
+
+    <fragment
+        android:id="@+id/nav_results"
+        android:name="com.jachaks.stressmeter_jachak_sekhon.ui.results.ResultFragment"
+        android:label="@string/menu_results"
+        tools:layout="@layout/fragment_result" />
+</navigation>
